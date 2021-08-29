@@ -1,0 +1,85 @@
+.pageTitle {
+    position: fixed;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: grey 0 2px 4px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background-color: white;
+    padding: 0 24px;
+}
+.errorBlock {
+    padding: 40px;
+    font-size: 26;
+    color: darkred;
+}
+.commentsList {
+    margin-top: 40px;
+}
+.container {
+    padding: 40px;
+    border-bottom: 1px solid grey;
+}
+.container:last-child {
+    border-bottom: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.header > div {
+    margin-right: 40px;
+}
+.header > div:last-child {
+    margin-right: 0;
+}
+.avatar {
+    flex: 0 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-size: cover;
+    background-position: top center;
+}
+.authorBlock {
+    flex: 1 1 auto;
+}
+.authorName {
+    font-size: 26px;
+    font-weight: bold;
+}
+.commentDate {
+    font-size: 22px;
+    color: #919191;
+}
+.likes {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    cursor: pointer;
+}
+.likesNumber {
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.commentBody {
+    margin-left: 130px;
+    font-size: 26px;
+}
+.childCommentsWrapper {
+    margin-right: -40px;
+    margin-bottom: -40px;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-top-left-radius: 8px;
+}
+.commentContent {
+    margin-right: -40px;
+    padding-right: 40px;
+}
